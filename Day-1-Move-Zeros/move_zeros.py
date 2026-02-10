@@ -5,7 +5,6 @@ def move_zeros(nums):
             temp = nums[start]
             nums[start]=nums[i]
             nums[i]= temp
-        
             start+=1
 
     return nums
